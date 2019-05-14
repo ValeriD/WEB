@@ -1,25 +1,32 @@
 <!Doctype html>
 
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
-	<title>Sign up</title>
-
-
+    <meta charset="utf-8">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../css/login-reg.css">
+		<link rel="stylesheet" href="../css/main.css">
 </head>
-
-
 <body>
-	<div class = "container">
-		 <form action="./login.html">
-		  E-mail:<br>
-		  <input type="email" name="email"><br>
-		  Password:<br>
-		  <input type="password" name="password"></br>
-     		  Repeat the Password:<br>
-		  <input type="password" name="password"></br>
-		  <input type="submit" value = "Sign up">
-		</form> 
-	</div>
+	<div class="login-box">
+	  <h1>Register</h1>
+	  <div class="textbox">
+	    <i class="fas fa-user"></i>
+	    <input type="text" placeholder="Username">
+	  </div>
 
+	  <div class="textbox">
+	    <i class="fas fa-lock"></i>
+	    <input type="password" placeholder="Password">
+	  </div>
+
+		<div class="textbox">
+	    <i class="fas fa-lock"></i>
+	    <input type="password" placeholder="Repeat Password">
+	  </div>
+
+	  <a href="./home.html" class="btn" >Signup</a>
+	</div>
 </body>
 </html>

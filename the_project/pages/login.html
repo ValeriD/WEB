@@ -1,23 +1,27 @@
 <!Doctype html>
 
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
-	<title>Login</title>
-
-
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login-reg.css">
+		<link rel="stylesheet" href="../css/main.css">
 </head>
-
-
 <body>
-	<div class = "container">
-		 <form action="./home.html">
-		  E-mail:<br>
-		  <input type="email" name="email"><br>
-		  Password:<br>
-		  <input type="password" name="password"></br>
-		  <input type="submit" value = "Login">
-		</form> 
-	</div>
+	<div class="login-box">
+	  <h1>Login</h1>
+	  <div class="textbox">
+	    <i class="fas fa-user"></i>
+	    <input type="text" placeholder="Username">
+	  </div>
 
+	  <div class="textbox">
+	    <i class="fas fa-lock"></i>
+	    <input type="password" placeholder="Password">
+	  </div>
+
+	  <a href="./home.html" class="btn" >Log in</a>
+	</div>
 </body>
 </html>
