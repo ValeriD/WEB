@@ -5,15 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Welcome</title>
 	<link rel="stylesheet" type="text/css" href="../css/starter_page.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("div.text").hide();
+});
+</script>
 </head>
 
 <body>
-	<div class="image">
+	<div id="div1" class="image">
 		<div class="text">
-			<h1>Welcome</h1>
+			<h1 id="h1">Welcome</h1>
 			<button class="btn"><a href="./login.html">Login</a></button></br>
 			<a href="./signup.html" class="reg">Register</a>
 		</div>
 </div>
+<script>$(document).ready(function(){
+  $("div.text").fadeIn(3000);
+});</script>
 </body>
 </html>

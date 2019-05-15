@@ -1,5 +1,7 @@
 
-
+a{
+  color: lightblue;
+}
 div.gallery {
   margin: 5px;
   float: left;
@@ -12,11 +14,17 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 150px;
 }
 
 div.desc {
   padding: 10px;
   margin: 10px
   text-align: center;
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
 }
