@@ -1,6 +1,7 @@
 .column {
   float: left;
   width: 50%;
+  padding-top: 50px;
 }
 
 /* Clear floats after the columns */
@@ -8,4 +9,40 @@
   content: "";
   display: table;
   clear: both;
+}
+.checked {
+  color: orange;
+}
+h1{
+  padding: 0px;
+}
+.rate{
+  padding: 0px;
+}
+.tomatoes{
+  width:600px;
+  height:500px;
+  padding: 10px;
+}
+ins{
+  text-decoration: none;
+}
+
+input[type=number]{
+  background-color:white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit] {
+  background-color:#ff5a1a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #cc3700;
 }
