@@ -12,7 +12,7 @@
 .login-box h1{
   float: none;
   font-size: 40px;
-  border-bottom: 6px solid #EE7500;
+  border-bottom: 6px solid #ff5a1a;
   margin-bottom: 50px;
   padding: 13px 0;
 }
@@ -22,7 +22,7 @@
   font-size: 20px;
   padding: 8px 0;
   margin: 8px 0;
-  border-bottom: 1px solid #EE7500;
+  border-bottom: 1px solid #ff5a1a;
 }
 .textbox i{
   width: 26px;
@@ -41,9 +41,10 @@
   margin: 0 10px;
 }
 .btn{
+  text-decoration: none;
   width: 100%;
   background: none;
-  border: 2px solid #EE7500;
+  border: 2px solid #ff5a1a;
   color: white;
   padding: 5px;
   font-size: 18px;

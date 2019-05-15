@@ -1,0 +1,46 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.image{
+  background-image: url("../photos/starter_page.jpg");
+  background-color: #fff;
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+h1{
+  font-size: 64px;
+  color: #ff5a1a;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a.reg{
+  color: #ff5a1a;
+}
+.btn {
+  border: 1px solid #ff5a1a;
+  border-radius: 5px;
+  background-color: #ff5a1a;
+  padding: 14px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #cc3700;
+}
