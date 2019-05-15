@@ -1,0 +1,52 @@
+<!Doctype html>
+
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/contactus.css">
+</head>
+
+<body>
+	<div class="navbar">
+		<a href="./home.html">Home</a>
+		<a href="./contactus.html">Contact us</a>
+		<a href="./products.html">Products</a>
+		<a href="./home.html" class="img"><img src = "../photos/logo.jpg"></a>
+		<a class="right" href="./starter_page.html">Log out</a>
+	</div>
+
+
+	<div class="container">
+	<div style="text-align:center; padding:50px;">
+    <h2>Contact Us</h2>
+  </div>
+  <div class="row">
+  <div class="mapouter column">
+		<div class="gmap_canvas">
+			<iframe width="550px" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Sofia%20bulgaria%20mall&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a>
+		</div>
+		</div>
+    <div class="column">
+      <form action="./about.html">
+      <!--  <label for="fname">First Name</label>-->
+        <input type="text" id="fname" name="firstname" placeholder="First name">
+        
+        <input type="text" id="lname" name="lastname" placeholder="Last name">
+
+        <select id="country" name="country" value=none>
+					<option value="">Country</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+					<option value="australia">Bulgaria</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
