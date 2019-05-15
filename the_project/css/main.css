@@ -34,3 +34,21 @@ body{
   width: 175px;
   height: 75px;
 }
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 45px;
+}
+.footer a{
+  color: white;
+  padding: 5px;
+  position: relative;
+  left: 45%
+}
+.creator{
+  text-align: center;
+  color: white;
+}

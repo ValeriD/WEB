@@ -68,13 +68,13 @@ input[type=submit]:hover {
 .mapouter{
   position:relative;
   text-align:left;
-  height:500px;
+  height:400px;
   width:600px;
 }
 .gmap_canvas {
   overflow:hidden;
   background:none
   !important;
-  height:500px;
+  height:400px;
   width:600px;
 }
